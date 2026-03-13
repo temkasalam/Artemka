@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My App</title>
+</head>
+
+<body style="text-align:center;font-family:Arial">
+
+<h1>Salam Aleykum</h1>
+
+<input id="name" placeholder="Write your name">
+
+<button onclick="hello()">Click</button>
+
+<p id="result"></p>
+
+<script>
+function hello(){
+let name = document.getElementById("name").value;
+document.getElementById("result").innerHTML = "Hello " + name;
+}
+</script>
+
+</body>
+</html>
